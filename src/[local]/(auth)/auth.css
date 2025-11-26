@@ -1,0 +1,89 @@
+/* src/[local]/(auth)/auth.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff4e6;
+    /* soft cream background */
+    margin: 0;
+    padding: 0;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-top: 6px solid #ff7f50;
+    /* coral accent for food vibe */
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    color: #ff7f50;
+    font-weight: 600;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-container input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.auth-container input:focus {
+    outline: none;
+    border-color: #ff7f50;
+    box-shadow: 0 0 5px rgba(255, 127, 80, 0.3);
+}
+
+.auth-container button {
+    padding: 12px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-container button:hover {
+    background-color: #e76b3d;
+}
+
+.auth-container hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.auth-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-container p a {
+    color: #ff7f50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-container p a:hover {
+    text-decoration: underline;
+}
+
+.auth-error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
